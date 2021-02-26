@@ -11,12 +11,15 @@ class Calculator extends Component{
             display:'',
         
             };
-    };
+            };
     // // showToDisplay=val=>{
     // //     this.setState({display:this.state.display + val})
     // // }
     buttonClicked=(name)=> {
         if( name === '='){
+            if(this.state.display===''){
+                false
+            }else
             this.calculate()
         
         }

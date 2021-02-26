@@ -1,6 +1,7 @@
 .Layout{
     padding: 5px;
     margin: 2px;
+    transform: translateZ(42px);
   
 }
 
@@ -10,4 +11,23 @@
     color: blanchedalmond;
     background-color: grey;
    
+}
+.ButtonC{
+    padding: 10px;
+    margin: 2px;
+    color: blanchedalmond;
+    background-color:red;
+}
+.ButtonEQ{
+    padding: 10px;
+    margin: 2px;
+    color: blanchedalmond;
+    background-color:green;
+}
+
+.ButtonOP{
+    padding: 10px;
+    margin: 2px;
+    color: blanchedalmond;
+    background-color:blue;
 }
